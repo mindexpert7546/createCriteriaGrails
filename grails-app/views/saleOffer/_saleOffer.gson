@@ -1,0 +1,7 @@
+import com.iinterchange.sale.SaleOffer
+
+model {
+	SaleOffer saleOffer
+}
+
+json g.render(saleOffer)

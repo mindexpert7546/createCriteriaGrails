@@ -1,0 +1,8 @@
+import com.iinterchange.sale.SaleOffer
+
+model {
+	Iterable<SaleOffer> saleOfferList
+}
+
+json tmpl.saleOffer(saleOfferList ?: [])
+
